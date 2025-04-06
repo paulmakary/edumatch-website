@@ -1,0 +1,89 @@
+// Global Styles
+$primary-color: #1a73e8;
+$secondary-color: #f1f3f4;
+$text-color: #333;
+$background-color: #ffffff;
+
+// Body and general page styles
+body {
+  font-family: Arial, sans-serif;
+  color: $text-color;
+  background-color: $background-color;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  color: $primary-color;
+}
+
+// Header Styles
+header {
+  background-color: $primary-color;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+
+  h1 {
+    font-size: 2.5rem;
+    margin: 0;
+  }
+}
+
+// Navigation Bar Styles
+nav {
+  background-color: $secondary-color;
+  padding: 10px 0;
+  text-align: center;
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  li {
+    display: inline-block;
+    margin: 0 15px;
+  }
+
+  a {
+    color: $primary-color;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 5px 10px;
+
+    &:hover {
+      background-color: $primary-color;
+      color: white;
+      border-radius: 5px;
+    }
+  }
+}
+
+// Button Styles
+button {
+  background-color: $primary-color;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+
+  &:hover {
+    background-color: darken($primary-color, 10%);
+  }
+}
+
+// Footer Styles
+footer {
+  background-color: $secondary-color;
+  padding: 20px 0;
+  text-align: center;
+
+  p {
+    color: $text-color;
+    margin: 0;
+  }
+}
